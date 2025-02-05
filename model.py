@@ -3,7 +3,7 @@ from PIL import Image
 import io
 import base64
 import requests
-import tiktoken  # For token size validation
+#import tiktoken  # For token size validation
 
 # Initialize chat history
 if "chat_history" not in st.session_state:
